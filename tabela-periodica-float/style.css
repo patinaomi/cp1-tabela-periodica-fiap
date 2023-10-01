@@ -1,0 +1,150 @@
+  @import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@700&family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor-de-fundo: #FFF5E0;
+    --cor-nao-metal:#A1D344;
+    --cor-gases-nobres: #3D9EE3;
+    --cor-metais-alcalinos: #F1B200;
+    --cor-metais-alcalino-terrosos: #eada00;
+    --cor-semimetais: #4DB6AC;
+    --cor-halogenios: #70CBEB;
+    --cor-outros-metais: #a2c7d3;
+    --cor-metais-de-transicao: #eb8e8e;
+    --cor-lantanideos: #90e3e9;
+    --cor-actinidios: #DCADD6;
+    
+    --fonte-principal: 'Gabarito', cursive;
+    --fonte-elementos: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    height: 700px;
+}
+
+.tabela-1 {
+    margin: 100px auto;
+    height: 800px;
+    width: 972px;
+}
+
+.quadrado {
+    width: 50px;
+    height: 50px;
+    border-radius: 2px;
+    border: 1px solid black;
+    margin: 2px;
+    font-family: var(--fonte-elementos);
+}
+
+.quadrado:hover  {
+    transition:.4s;
+    transform:scale(2.0);
+    cursor:pointer;
+}
+
+.nao-metal {
+    background-color: var(--cor-nao-metal);
+}
+
+.gases-nobres {
+    background-color: var(--cor-gases-nobres);
+}
+
+.metais-alcalinos {
+    background-color: var(--cor-metais-alcalinos);
+}
+
+.metais-alcalinos-terrosos {
+    background-color: var(--cor-metais-alcalino-terrosos);
+}
+
+.semimetais {
+    background-color: var(--cor-semimetais);
+}
+
+.halogenios {
+    background-color: var(--cor-halogenios);
+}
+
+.outros-metais {
+    background-color: var(--cor-outros-metais);
+}
+
+.metais-de-transicao {
+    background-color: var(--cor-metais-de-transicao);
+}
+
+.lantanideos {
+    background-color: var(--cor-lantanideos);
+}
+
+.actinidios {
+    background-color: var(--cor-actinidios);
+}
+
+
+.esquerda {
+    float: left;
+}
+
+.direita {
+    float: right;
+}
+
+.espaco {
+    width: 856px;
+    height: 50px;
+    float: left;
+    margin: 2px;
+}
+
+.espaco-2 {
+    width: 524px;
+    height: 50px;
+    float: left;
+    margin: 2px;
+}
+
+.tabela-2 {
+    margin: 50px auto;
+    height: 160px;
+    width: 848px;
+}
+
+
+.clear {
+    clear: both;
+}
+
+h1 {
+    font-size: 3em;
+    text-align: center;
+    font-family: var(--fonte-principal);
+    margin-bottom: 50px;
+}
+
+h4 {
+    text-align: center;
+    font-weight: bold;
+    font-family: var(--fonte-principal);
+}
+
+h5 {
+    text-align: center;
+    font-size: 10px;
+    font-family: var(--fonte-elementos);
+}
+
+h6 {
+    margin: 2px 0 0 5px;
+    font-size: 10px;
+    font-family: var(--fonte-elementos);
+}
